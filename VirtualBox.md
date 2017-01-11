@@ -17,3 +17,6 @@ This has been tested on OSX
 9. Now give the “VirtualBox Disk Image” a name and determine the size you want to make the “hard drive” for Ubuntu. I selected 8GB – to allow for the install of a few programs and file storage. Click Create: ![alt text](./vb2.png) 
 10. Now start your brand new virtual box.
 11. You’ll be prompted to locate the .ubuntu iso image you had downloaded earlier.  Do that: ![alt text](./vb3.png)
+12. Click Install Ubuntu
+13. Ubuntu will run a quick test to ensure your computer is capable of running on it. Check Download updates while installing and Install this third-party software and click the Continue button.
+14. Select Erase disk and install Ubuntu. NOTE: this is not going to ‘wipe out’ or erase any data in OS X. It is safe to click Install Now, so do just that.  Thats it. 
