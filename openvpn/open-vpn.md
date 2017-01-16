@@ -7,50 +7,27 @@ We solve this problem with VPNs. A VPN will establish a safe way to create a vir
 
 Why is this important? Accessing a device remotely is an incredibly valuable skill for maintaining networked devices.  We access remote devices using a protocol called ssh. In simplest terms, when you SSH onto a remote machine you are given access to a terminal window of that machine.  From that terminal you can perform any operation as if you were on your own machine.  
 
-In this assignment 
+## Assignment
 
+In general I don't really know what I am doing. In fact at Saycel, we don't really know what we are doing. We generally fake things, read documentation, make mistakes, look things up, fix mistakes, and learn as we go. This assignment is meant to expose you to technology you and concepts you may not familiar with. Networks are weird and the best way to learn them is to dive in.  Through this assignment you should get used to the terminal, the process of SSH, and reading documentation. 
 
-We use an OpenVPN server to remotely connect and configure our BSC's
+The goal:  Make any device a client of our Towers of Power VPN so you can access it remotely.  
+How: https://openvpn.net/index.php/open-source/documentation/howto.html#pki
 
+### WTF?
+We have set up a Towers of Power server and have generated keys for each one of you on it. We want you to turn your virtual box, your refrigerator, your IP camera, your whatever linux device, into a client of our server. This way, from anywhere in the world, you can ssh into our towers of power vpn, and thus ssh into your machine.  
 
+We don't want to give too much instruction, and we want you reading the [documentation](https://openvpn.net/index.php/open-source/documentation/howto.html). The general steps below assume virtual box.
 
-nd smartphones connected to your router (via wired or wifi) get a private IP address from your router via DHCP protocol.
+1. Install openvpn and openssh-server on a device or in virtual box ( sudo apt-get install ). If you have trouble ensure your host machine is sharing its internet connection with your ubuntu virtual box (( hint: bridged adapter in virtual box...you can look this up ))
+2. Ensure ssh server is running ( ps aux | grep ssh ) -> what does this output mean.  Look up what these commands do. You should see two lines of output.
+4. Create a client.conf file in /etc/openvpn  
+5. SSH into our towers of power server and find your keys ( ssh root@104.236.122.246 ). You will need to read the documentation to find the files and determine which you need.   
+6. Copy the necessary files into the root directory your devices openvpn installation. You will need to read the documentation to determine the correct files.  NOTE: You will be unable to copy and paste these files, that wont work.  You will need to use a command called scp or secure copy.  HINT: scp root@ipaddress:/route-to-individual-file-on-our-server /route-to-location-on-your-device
+7. Start openVPN, you will know its working if see an interface called tun0 when you type ifconfig. 
 
+###RULES
 
-We use an OpenVPN server to remotely connect and configure our BSC's
+1. YOU WILL NOT NEED TO GENERATE ANY FILES ON OUR SERVER.  WE HAVE GENERATED THE NECESSARY FILES, YOU JUST NEED TO MOVE THEM TO YOUR MACHINE.  
+2. READ THE DOCUMENTATION.
 
-we need to talk about ssh....
-
-This setup assumes you are using virtualbox on your OSX.  Though most of the same steps apply for any linux based device.
-The excersize involves installing openvpn onto your virtual machine and becoming a client of a remote server. 
-
-Much of learning this stuff involves reading documentation and making mistakes.  So we wanted to design an excersize that gets you working directly with documentation on a live environment. 
-We have set up a towers of power remote server with openvpn installed and have generated keys for each one of you on it.
-
-Your job is to become a client of our remote server. 
-
-You can do this on your virtual machine, or on a rasperry pi, a smart refrigator.  Any device with an OS that can handle openvpn
-By doing this you will be able to accss that device remotely from anywhere in the world. 
-
-The basic process will be to
-
-1. sudo apt-get install openvpn openssh-server on a device
-2. ensure your host machine is sharing its connection with your ubuntu virtual box....ping
-3. ensure ssh server is running....ps aux grep sshor something
-4. create a client.conf file...you can use this one. 
-5. ssh into our towers of power server and find your keys.
-6. copy the necessary files into the root directory OF YOUR CLIENTS openvpn installation...you will need to read the documentation to find the files
-7. start openvpn.  
-8. you will know its working if you type ifconfig and see something called tun0. 
-
-dont remove any files from the server. 
-dont take someone elses key
-dont be mean.  its a live server we are giving you root access to.  We have taken some security precautions but....i mean...this is a class so dont try to break anything
-r
-
-
-The internet
-networking basics
-ssh
-terminal commands
-openvpn
