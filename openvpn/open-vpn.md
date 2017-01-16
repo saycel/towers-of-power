@@ -1,8 +1,21 @@
-# OpenVPN notes for now
-When working with remote machines its important that you are able to connect to them from a distance. 
-Just because two machines might be connected to the internet doesn't necessarily mean that they are able to communicate. 
-The internet is a network of networks, and machines must be on the same network to communicate. 
-IP addressing...etc. 
+# OpenVPN Assignment
+The internet is a network of networks.  Proprietary wires, Radio-Links, and miles of undersea cables form networks that at some point need to connect with eachother.  IP Addresses identify a computer to their network and indicate how packets of data are to be routed to their final destination.  At some point a packet on the internet will leave its own network and may travel thousands of miles to reach a server -- https://github.com/dmehrotra/packet-reach .   
+
+A public IP address is a unique IP address that can be accessed over the Internet, like a postal address. However when connected to a network, you're computer is likely not given a public IP address.  In fact your personal IP address is only visible to those on the same network as you.  How then can you safely access a remote machine on a different network?  
+
+We solve this problem with VPNs. A VPN will establish a safe way to create a virtual link between two or more computers / machines/ smart devices across different networks. The machines, still without public IP addresses, are invisible to the internet, but communicate with each other through a remote server with a public IP address.  
+
+Why is this important? Accessing a device remotely is an incredibly valuable skill for maintaining networked devices.  We access remote devices using a protocol called ssh. In simplest terms, when you SSH onto a remote machine you are given access to a terminal window of that machine.  From that terminal you can perform any operation as if you were on your own machine.  
+
+In this assignment 
+
+
+We use an OpenVPN server to remotely connect and configure our BSC's
+
+
+
+nd smartphones connected to your router (via wired or wifi) get a private IP address from your router via DHCP protocol.
+
 
 We use an OpenVPN server to remotely connect and configure our BSC's
 
