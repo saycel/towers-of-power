@@ -48,3 +48,23 @@ Building a GSM Network from software to hardware installation.
 
 Homework:  
 1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/blob/master/openvpn/open-vpn.md)   
+
+
+## Week 3 - Feb 6
++ Radio Waves, SDR, Wifi and Politics
++ Basic Radio Wave propagation, modulation
++ SDRs- what equipment is available? 
++ Long Distance Wifi Backhaul
++ Politics of Telecommunications
+
++ RTL-SDR - Demo RTL-SDR in class.  We will use the RTL SRD to see phone calls we make with an our open source cellular system.  
++ Twilio - Overview of how to use Twilio to make phone based projects. 
+
+Homework: 
+1. Start thinking about your final project - Research a community that needs communications technology or think about an innovative application of the GSM spectrum and how it can be used in rural development work.   Write a blog post about it. 
+
+2. Do one of the following assignments below: 
++ Look at Radio spectrum and record something interesting. If you don’t know what it is, try to figure it out, better yet try to demodulate it.  
++ Make something interesting with twilio, and you can work in groups.  
++ For the really adventurous: Install a cell network with BladeRF. 
+
