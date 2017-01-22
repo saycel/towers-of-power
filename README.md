@@ -17,7 +17,12 @@ In this class you learn how to create your own communications networks. We will 
   
 # Office Hours
 I will be avaliable for office hours by appointment on Wednesdays and Thursdays. 
-Specific hours and appointments will be avaliable soon.  
+Specific hours and appointments will be avaliable soon. 
+
+Dhruv is available Mondays and Thursdays
+
+ereedsanchez@gmail.com 
+dhruv.mehrotra3@gmail.com
 
 # Syllabus
 ## Week 1
@@ -29,7 +34,8 @@ Specific hours and appointments will be avaliable soon.
 + Basic Terminal Workshop
 
 Guest Speaker: Peter Bloom, Rhizomatica
-Homework: Install Virtual Box/ Linux Ubuntu, and GQRX Order RTL-SDR
+Homework: Install Virtual Box/ Linux Ubuntu, and GQRX Order RTL-SDR.
+
 Find the IMSI and IMEI number for your phone/account.
 
 ## Week 2 
