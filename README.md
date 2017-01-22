@@ -26,9 +26,17 @@ Specific hours and appointments will be avaliable soon.
 + Syllabus and expectations
 + History of SayCel
 + Basic of GSM Infrastructure
-
 + Basic Terminal Workshop
 
 Guest Speaker: Peter Bloom, Rhizomatica
-
 Homework: Install Virtual Box/ Linux Ubuntu, and GQRX Order RTL-SDR
+Find the IMSI and IMEI number for your phone/account.
+
+## Week 2 
+Building a GSM Network from software to hardware installation.
+
++ Basic SDR introduction and options for building an GSM network. 
++ History of Open Source Cellular - Rhizomatica,   
++ History of SayCel
++ Basic of GSM Infrastructure
++ Basic Terminal Workshop
