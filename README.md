@@ -108,4 +108,4 @@ The prototype can be a simple paper prototype or a complex system. The objective
 
 
 ## Week 7
-### Final Presentations / Pitch your Project.  
+### Final Presentations / Pitch your Project
