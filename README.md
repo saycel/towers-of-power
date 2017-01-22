@@ -33,7 +33,7 @@ dhruv.mehrotra3@gmail.com
 
 #### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
 
-Homework:  
+#### Homework:  
 1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)  
 2. Order RTL-SDR.  
 3. Find the IMSI and IMEI number for your phone/account.
@@ -48,7 +48,7 @@ Homework:
 + Tower Installations, maintence and concerns. 
 + Virtual Private Networks (VPN) - Why it’s important and why we use it. 
 
-Homework:  
+#### Homework:  
 1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/blob/master/openvpn/open-vpn.md)   
 
 
@@ -62,8 +62,7 @@ Homework:
 + RTL-SDR - Demo RTL-SDR in class.  We will use the RTL SRD to see phone calls we make with an our open source cellular system.  
 + Twilio - Overview of how to use Twilio to make phone based projects. 
 
-Homework: 
-
+#### Homework: 
 1. Start thinking about your final project - Research a community that needs communications technology or think about an innovative application of the GSM spectrum and how it can be used in rural development work.   Write a blog post about it. 
 
 2. Do one of the following assignments below (you may work in groups): 
@@ -72,11 +71,20 @@ Homework:
 + Make something interesting with twilio, and you can work in groups.  
 + For the really adventurous: Install a cell network with BladeRF. 
 
+
 ## Week 4 
 ### Business, Budgets, Proposal, and Raising Financial Capital.
 + All the important details a tech person needs to know to run a business.  
 
 #### Guest Speaker: [Kashif Ali / Facebook Open Cellular](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform)
+
+#### Homework (you may work in groups):  
+1. Propose a location to do a GSM installation or a new product you want to build.
+2. Write a brief synopsis of the project. 
+3. Complete a [Business Model Canvas](https://assets.strategyzer.com/assets/resources/the-business-model-canvas.pdf)
+4. Complete a Start-up Budget
+5. Complete a 24 Month Profit Loss Budget
+
 
 ## Week 5
 ### Getting Hardware to speak GSM
@@ -85,10 +93,19 @@ Homework:
 + Hands-on demo in pairs or small groups on how to use a serial communication application to talk to GSM breakout boards and more.
 + How to send an SMS and review of SMS protocol.
 
+#### Homework (you may work in groups):  
+Work on your final!
+Your final will be a pitch to potential investors about a location you want to install a cellular netowrk, a product that uses the GSM spectrum, or telephony service.  Your project should be useable in developing communities and you should have an understanding of the background of the region or people your service or product would target. 
+
+For next week you will present the class with a prototype in order to beta test and allow us to provide constructive criticism.
+The prototype can be a simple paper prototype or a complex system. The objective is to have a clear understanding of the product or service. In addition to your prototype prepare your inital pitch.  
+
+
 ## Week 6
 ### Prototype Workshop
 + Present your prototype.  
-+ Present your initial 10 minute pitch.  
++ Present your initial pitch.  
+
 
 ## Week 7
-### Pitch your Project.  Final Presentations 
+### Final Presentations / Pitch your Project.  
