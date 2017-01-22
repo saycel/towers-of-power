@@ -34,9 +34,9 @@ dhruv.mehrotra3@gmail.com
 #### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
 
 #### Homework:  
-1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)  
+1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)  Write a blog post about your experience. 
 2. Order RTL-SDR.  
-3. Find the IMSI and IMEI number for your phone/account.
+3. Find the IMSI and IMEI number for your phone/account. Write a blog post explaining how you found your IMSI/IMEI number.  
 
 
 ## Week 2 
@@ -50,6 +50,7 @@ dhruv.mehrotra3@gmail.com
 
 #### Homework:  
 1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/blob/master/openvpn/open-vpn.md)   
+Write a blog post about your experience. 
 
 
 ## Week 3 
@@ -58,7 +59,6 @@ dhruv.mehrotra3@gmail.com
 + SDRs- what equipment is available? 
 + Long Distance Wifi Backhaul
 + Politics of Telecommunications
-
 + RTL-SDR - Demo RTL-SDR in class.  We will use the RTL SRD to see phone calls we make with an our open source cellular system.  
 + Twilio - Overview of how to use Twilio to make phone based projects. 
 
