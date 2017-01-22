@@ -19,7 +19,8 @@ Post links to your homework assignment here:
 + Xiqiao Zhou
 + Jonathan James Gallagher
 
-## Week 2+ Alexia Kyriakopoulou
+## Week 2
++ Alexia Kyriakopoulou
 + Anastasios Germanidis
 + Dominic Barrett
 + Dorothy Chi Hung Lam
@@ -37,7 +38,8 @@ Post links to your homework assignment here:
 + Xiqiao Zhou
 + Jonathan James Gallagher
 
-## Week 3+ Alexia Kyriakopoulou
+## Week 3
++ Alexia Kyriakopoulou
 + Anastasios Germanidis
 + Dominic Barrett
 + Dorothy Chi Hung Lam
