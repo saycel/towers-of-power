@@ -31,7 +31,7 @@ dhruv.mehrotra3@gmail.com
 + Basic of GSM Infrastructure
 + Basic Terminal Workshop
 
-Guest Speaker: Peter Bloom, Rhizomatica
+#### Guest Speaker: Peter Bloom, Rhizomatica
 
 Homework:  
 1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)  
@@ -62,7 +62,7 @@ Homework:
 + RTL-SDR - Demo RTL-SDR in class.  We will use the RTL SRD to see phone calls we make with an our open source cellular system.  
 + Twilio - Overview of how to use Twilio to make phone based projects. 
 
-Guest Speaker: [Kashif Ali / Facebook Open Cellular](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform)
+#### Guest Speaker: [Kashif Ali / Facebook Open Cellular](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform)
 
 Homework: 
 1. Start thinking about your final project - Research a community that needs communications technology or think about an innovative application of the GSM spectrum and how it can be used in rural development work.   Write a blog post about it. 
