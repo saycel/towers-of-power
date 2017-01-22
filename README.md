@@ -17,11 +17,9 @@ In this class you learn how to create your own communications networks. We will 
   
 # Office Hours
 I will be avaliable for office hours by appointment on Wednesdays and Thursdays. 
-Specific hours and appointments will be avaliable soon. 
-
-Dhruv is available Mondays and Thursdays
-
-ereedsanchez@gmail.com 
+Specific hours and appointments will be avaliable soon.  
+Dhruv is available Mondays and Thursdays.    
+ereedsanchez@gmail.com  
 dhruv.mehrotra3@gmail.com
 
 # Syllabus
