@@ -22,12 +22,12 @@ Specific hours and appointments will be avaliable soon.
 # Syllabus
 ## Week 1
 
-Student Introductions: an ITP tradition!
-Syllabus and expectations
-History of SayCel
-Basic of GSM Infrastructure
++ Student Introductions: an ITP tradition!
++ Syllabus and expectations
++ History of SayCel
++ Basic of GSM Infrastructure
 
-Basic Terminal Workshop
++ Basic Terminal Workshop
 
 Guest Speaker: Peter Bloom, Rhizomatica
 
