@@ -45,3 +45,6 @@ Building a GSM Network from software to hardware installation.
 + History of SayCel
 + Basic of GSM Infrastructure
 + Basic Terminal Workshop
+
+Homework:  
+1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/blob/master/openvpn/open-vpn.md)   
