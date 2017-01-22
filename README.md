@@ -69,7 +69,8 @@ Homework:
 1. Start thinking about your final project - Research a community that needs communications technology or think about an innovative application of the GSM spectrum and how it can be used in rural development work.   Write a blog post about it. 
 
 2. Do one of the following assignments below: 
+
 + Look at Radio spectrum and record something interesting. If you don’t know what it is, try to figure it out, better yet try to demodulate it.  
-+ Make something interesting with twilio, and you can work in groups.  
+++ Make something interesting with twilio, and you can work in groups.  
 + For the really adventurous: Install a cell network with BladeRF. 
 
