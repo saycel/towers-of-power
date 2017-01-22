@@ -33,8 +33,8 @@ dhruv.mehrotra3@gmail.com
 
 Guest Speaker: Peter Bloom, Rhizomatica
 Homework:  
-1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md) 
-2. Order RTL-SDR.
+1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)  
+2. Order RTL-SDR.  
 3. Find the IMSI and IMEI number for your phone/account.
 
 ## Week 2 
