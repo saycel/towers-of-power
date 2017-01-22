@@ -73,6 +73,22 @@ Homework:
 + For the really adventurous: Install a cell network with BladeRF. 
 
 ## Week 4 
-Part 1: Business, Budgets, Proposal, and Raising Financial Capital.
+### Business, Budgets, Proposal, and Raising Financial Capital.
++ All the important details a tech person needs to know to run a business.  
 
 #### Guest Speaker: [Kashif Ali / Facebook Open Cellular](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform)
+
+## Week 5
+### Getting Hardware to speak GSM
++ Overview of different hardware options: GSM modems, GSM modules and shields, GSM breakout boards for micro-controllers and micro-controller platforms.
++ Communicating with GSM hardware and setting the hardware up: AT Commands.
++ Hands-on demo in pairs or small groups on how to use a serial communication application to talk to GSM breakout boards and more.
++ How to send an SMS and review of SMS protocol.
+
+## Week 6
+### Prototype Workshop
++ Present your prototype.  
++ Present your initial 10 minute pitch.  
+
+## Week 7
+### Pitch your Project.  Final Presentations 
