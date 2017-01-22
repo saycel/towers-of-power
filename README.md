@@ -38,14 +38,7 @@ Homework:
 3. Find the IMSI and IMEI number for your phone/account.
 
 ## Week 2 
-Building a GSM Network from software to hardware installation.
- 
-Installing Software: VPN, Osmocom Network in a Box, and Rhizomatica Front End. 
-Overview of Osmo-NITB, Osmo-TRX, Freeswitch, Kannel, RAI, etc
-Hardware: Nuran Litecel, Antennas, Cables, Solar, etc.  
-How to mount equipment on a tower.  
-
-Virtual Private Networks (VPN) - Why it’s important and why we use it. 
+### Building a GSM Network from software to hardware installation.
 
 + Basic SDR introduction and options for building an GSM network. 
 + History of Open Source Cellular - Osmocom, OpenBTS, YateBTS, Rhizomatica, Open Cellular   
