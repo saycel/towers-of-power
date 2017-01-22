@@ -34,9 +34,10 @@ dhruv.mehrotra3@gmail.com
 + Basic Terminal Workshop
 
 Guest Speaker: Peter Bloom, Rhizomatica
-Homework: Install Virtual Box/ Linux Ubuntu, and GQRX Order RTL-SDR.
-
-Find the IMSI and IMEI number for your phone/account.
+Homework:  
+1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md) 
+2. Order RTL-SDR.
+3. Find the IMSI and IMEI number for your phone/account.
 
 ## Week 2 
 Building a GSM Network from software to hardware installation.
