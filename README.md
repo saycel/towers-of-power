@@ -19,3 +19,16 @@ In this class you learn how to create your own communications networks. We will 
 I will be avaliable for office hours by appointment on Wednesdays and Thursdays. 
 Specific hours and appointments will be avaliable soon.  
 
+# Syllabus
+## Week 1
+
+Student Introductions: an ITP tradition!
+Syllabus and expectations
+History of SayCel
+Basic of GSM Infrastructure
+
+Basic Terminal Workshop
+
+Guest Speaker: Peter Bloom, Rhizomatica
+
+Homework: Install Virtual Box/ Linux Ubuntu, and GQRX Order RTL-SDR
