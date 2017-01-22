@@ -24,7 +24,7 @@ dhruv.mehrotra3@gmail.com
 
 # Syllabus
 ## Week 1
-
+### Introduction to Towers of Power
 + Student Introductions: an ITP tradition!
 + Syllabus and expectations
 + History of SayCel
@@ -32,14 +32,15 @@ dhruv.mehrotra3@gmail.com
 + Basic Terminal Workshop
 
 Guest Speaker: Peter Bloom, Rhizomatica
+
 Homework:  
 1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)  
 2. Order RTL-SDR.  
 3. Find the IMSI and IMEI number for your phone/account.
 
+
 ## Week 2 
 ### Building a GSM Network from software to hardware installation.
-
 + Basic SDR introduction and options for building an GSM network. 
 + History of Open Source Cellular - Osmocom, OpenBTS, YateBTS, Rhizomatica, Open Cellular   
 + Rhizomatica / SayCel installation Software Overview: Osmo-NITB, Osmo-TRX, Freeswitch, Kannel, RAI, etc
@@ -52,7 +53,7 @@ Homework:
 
 
 ## Week 3 - Feb 6
-+ Radio Waves, SDR, Wifi and Politics
+### Radio Waves, SDR, Wifi and Politics
 + Basic Radio Wave propagation, modulation
 + SDRs- what equipment is available? 
 + Long Distance Wifi Backhaul
@@ -60,6 +61,8 @@ Homework:
 
 + RTL-SDR - Demo RTL-SDR in class.  We will use the RTL SRD to see phone calls we make with an our open source cellular system.  
 + Twilio - Overview of how to use Twilio to make phone based projects. 
+
+Guest Speaker: [Kashif Ali / Facebook Open Cellular](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform)
 
 Homework: 
 1. Start thinking about your final project - Research a community that needs communications technology or think about an innovative application of the GSM spectrum and how it can be used in rural development work.   Write a blog post about it. 
