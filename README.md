@@ -39,12 +39,20 @@ Homework:
 
 ## Week 2 
 Building a GSM Network from software to hardware installation.
+ 
+Installing Software: VPN, Osmocom Network in a Box, and Rhizomatica Front End. 
+Overview of Osmo-NITB, Osmo-TRX, Freeswitch, Kannel, RAI, etc
+Hardware: Nuran Litecel, Antennas, Cables, Solar, etc.  
+How to mount equipment on a tower.  
+
+Virtual Private Networks (VPN) - Why it’s important and why we use it. 
 
 + Basic SDR introduction and options for building an GSM network. 
-+ History of Open Source Cellular - Rhizomatica,   
-+ History of SayCel
-+ Basic of GSM Infrastructure
-+ Basic Terminal Workshop
++ History of Open Source Cellular - Osmocom, OpenBTS, YateBTS, Rhizomatica, Open Cellular   
++ Rhizomatica / SayCel installation Software Overview: Osmo-NITB, Osmo-TRX, Freeswitch, Kannel, RAI, etc
++ Rhizomatica / SayCel installation Hardware Overview: Nuran Litecel, Antennas, Cables, Solar, etc. 
++ Tower Installations, maintence and concerns. 
++ Virtual Private Networks (VPN) - Why it’s important and why we use it. 
 
 Homework:  
 1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/blob/master/openvpn/open-vpn.md)   
