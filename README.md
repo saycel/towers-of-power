@@ -31,7 +31,7 @@ dhruv.mehrotra3@gmail.com
 + Basic of GSM Infrastructure
 + Basic Terminal Workshop
 
-#### Guest Speaker: Peter Bloom, Rhizomatica
+#### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
 
 Homework:  
 1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)  
@@ -52,7 +52,7 @@ Homework:
 1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/blob/master/openvpn/open-vpn.md)   
 
 
-## Week 3 - Feb 6
+## Week 3 
 ### Radio Waves, SDR, Wifi and Politics
 + Basic Radio Wave propagation, modulation
 + SDRs- what equipment is available? 
