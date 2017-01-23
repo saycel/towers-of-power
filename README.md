@@ -34,9 +34,10 @@ dhruv.mehrotra3@gmail.com
 #### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
 
 #### Homework:  
-1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)  Write a blog post about your experience. 
+1. [Install Virtual Box/ Linux Ubuntu, and GQRX ](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)
 2. Order RTL-SDR.  
 3. Find the IMSI and IMEI number for your phone/account. Write a blog post explaining how you found your IMSI/IMEI number.  
+4. Read [Built to Last by Jim Collins] https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402 Chapters 1 & 2. 
 
 
 ## Week 2 
