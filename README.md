@@ -39,6 +39,7 @@ dhruv.mehrotra3@gmail.com
 3. Order RTL-SDR.  
 4. Find the IMSI and IMEI number for your phone/account. Write a blog post explaining how you found your IMSI/IMEI number.  
 5. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 1 & 2. Write a blog post about the reading.  
+6. Optional: [history of internet infrastructure](https://www.theatlantic.com/technology/archive/2015/11/how-railroad-history-shaped-internet-history/417414)
 
 
 ## Week 2 
