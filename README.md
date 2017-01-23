@@ -97,7 +97,7 @@ Write a blog post about your experience.
 
 #### Homework (you may work in groups):  
 Work on your final!
-Your final will be a pitch to potential investors about a location you want to install a cellular netowrk, a product that uses the GSM spectrum, or telephony service.  Your project should be useable in developing communities and you should have an understanding of the background of the region or people your service or product would target. 
+Your final will be a pitch to potential investors about a location you want to install a cellular network, a product that uses the GSM spectrum, or telephony service.  Your project should be useable in developing communities and you should have an understanding of the background of the region or people your service or product would target. 
 
 For next week you will present the class with a prototype in order to beta test and allow us to provide constructive criticism.
 The prototype can be a simple paper prototype or a complex system. The objective is to have a clear understanding of the product or service. In addition to your prototype prepare your inital pitch.  
