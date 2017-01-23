@@ -16,8 +16,8 @@ In this class you learn how to create your own communications networks. We will 
   
   
 # Office Hours
-I will be avaliable for office hours by appointment on Wednesdays and Thursdays. 
-Specific hours and appointments will be avaliable soon.  
+I will be available for office hours by appointment on Wednesdays and Thursdays. 
+Specific hours and appointments will be available soon.  
 Dhruv is available Mondays and Thursdays.    
 ereedsanchez@gmail.com  
 dhruv.mehrotra3@gmail.com
@@ -47,7 +47,7 @@ dhruv.mehrotra3@gmail.com
 + History of Open Source Cellular - Osmocom, OpenBTS, YateBTS, Rhizomatica, Open Cellular   
 + Rhizomatica / SayCel installation Software Overview: Osmo-NITB, Osmo-TRX, Freeswitch, Kannel, RAI, etc
 + Rhizomatica / SayCel installation Hardware Overview: Nuran Litecel, Antennas, Cables, Solar, etc. 
-+ Tower Installations, maintence and concerns. 
++ Tower Installations, maintenance and concerns.  
 + Virtual Private Networks (VPN) - Why it’s important and why we use it. 
 
 #### Homework:  
@@ -61,7 +61,7 @@ Write a blog post about your experience.
 + SDRs- what equipment is available? 
 + Long Distance Wifi Backhaul
 + Politics of Telecommunications
-+ RTL-SDR - Demo RTL-SDR in class.  We will use the RTL SRD to see phone calls we make with an our open source cellular system.  
++ RTL-SDR - Demo RTL-SDR in class.  We will use the RTL-SDR to see phone calls we make with an our open source cellular system.  
 + Twilio - Overview of how to use Twilio to make phone based projects. 
 
 #### Homework: 
