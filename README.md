@@ -29,7 +29,7 @@ dhruv.mehrotra3@gmail.com
 + Syllabus and expectations
 + History of SayCel
 + Basic of GSM Infrastructure
-+ Basic Terminal Workshop
++ Basic Terminal Workshop https://docs.google.com/presentation/d/1tLC7XzMhGAKJri2ZYf2lvHvoR0w-OxHzxErKkz0C_jI/edit?usp=sharing
 
 #### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
 
