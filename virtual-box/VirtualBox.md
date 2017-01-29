@@ -4,7 +4,7 @@ VM VirtualBox is free and open-source software developed by Oracle Corporation. 
 
 It can be installed on a number of host operating systems, including: Linux, OS X, Windows, Solaris, etc.
 
-This has been tested on OSX
+This has been tested on OSX. Windows users might need to change some BIOS settings. [This video](https://www.youtube.com/watch?v=1wc3fjGtPHU) is helpful.
 
 1. Navigate to [Ubuntu download page](http://mirror.pnl.gov/releases/14.04.5) and download the ubuntu-14.04.4-desktop-amd64.iso. 
 2. Now download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
