@@ -20,8 +20,8 @@ We have set up a Towers of Power server and have generated keys for each one of 
 We don't want to give too much instruction, and we want you reading the [documentation](https://openvpn.net/index.php/open-source/documentation/howto.html). The general steps below assume virtual box.
 
 1. Install openvpn and openssh-server on a device or in virtual box ( sudo apt-get install ). If you have trouble ensure your host machine is sharing its internet connection with your ubuntu virtual box (( hint: bridged adapter in virtual box...you can look this up ))
-2. Ensure ssh server is running ( ps aux | grep ssh ) -> what does this output mean.  Look up what these commands do. You should see two lines of output.
-4. Create a client.conf file in /etc/openvpn  
+2. Ensure ssh server is running ( ps aux | grep ssh ) -> what does this output mean.  Look up what these commands do. You should see two lines of output.  Why do you need an ssh server to be running?
+4. Create a client.conf file in /etc/openvpn ( you can copy and paste the text of this one into your client.conf ) 
 5. SSH into our towers of power server and find your keys ( ssh itpstudent@104.236.122.246 ). You will need to read the documentation to find the files and determine which you need.   
 6. Copy the necessary files into the root directory your devices openvpn installation. You will need to read the documentation to determine the correct files.  NOTE: You will be unable to copy and paste these files, that wont work.  You will need to use a command called scp or secure copy.  HINT: scp itpstudent@ipaddress:/route-to-individual-file-on-our-server /route-to-location-on-your-device
 7. Start openVPN, you will know its working if see an interface called tun0 when you type ifconfig. 
@@ -30,4 +30,5 @@ We don't want to give too much instruction, and we want you reading the [documen
 
 1. YOU WILL NOT NEED TO GENERATE ANY FILES ON OUR SERVER.  WE HAVE GENERATED THE NECESSARY FILES, YOU JUST NEED TO MOVE THEM TO YOUR MACHINE.  
 2. READ THE DOCUMENTATION.
+3.  THE STEPS ABOVE ARE PURPOSEFULLY VAGUE.  YOU NEED TO READ THE DOCUMENTATION.
 
