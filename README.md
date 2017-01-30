@@ -54,6 +54,7 @@ dhruv.mehrotra3@gmail.com
 #### Homework:  
 1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/blob/master/openvpn/open-vpn.md)   
 Write a blog post about your experience. 
+2. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 3 & 4. Write a blog post about the reading.  
 
 
 ## Week 3 
