@@ -16,9 +16,9 @@ In this class you learn how to create your own communications networks. We will 
   
   
 # Office Hours
-I will be available for office hours by appointment on Wednesdays and Thursdays. 
-[Book Appointments on my google Calander](https://calendar.google.com/calendar/selfsched?sstoken=UUtrN2U2d1RsdDEwfGRlZmF1bHR8NjlhZTM2Y2NkM2U5MjU0OWM4ZDA5ODA0ZTg1YTdlMzI), or email (ereedsanchez@gmail.com ) if those times do not work.  
-Specific hours and appointments will be available soon.  
+I will be available for office hours by appointment on Wednesdays and Thursdays.
+
+Book Appointments on my [Google Calander](https://calendar.google.com/calendar/selfsched?sstoken=UUtrN2U2d1RsdDEwfGRlZmF1bHR8NjlhZTM2Y2NkM2U5MjU0OWM4ZDA5ODA0ZTg1YTdlMzI), or email (ereedsanchez@gmail.com ) if those times do not work.    
 Dhruv is available Mondays and Thursdays.    
  
 dhruv.mehrotra3@gmail.com
