@@ -12,7 +12,7 @@ In this class you learn how to create your own communications networks. We will 
   4. February 13
   5. February 27
   6. March 6
-  7. TBD
+  7. March 7 6:30-9 PM
   
   
 # Office Hours
