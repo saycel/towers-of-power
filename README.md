@@ -70,6 +70,7 @@ Write a blog post about your experience.
 + Long Distance Wifi Backhaul
 + RTL-SDR - Demo RTL-SDR in class.  We will use the RTL-SDR to see phone calls we make with an our open source cellular system.  
 
+#### Guest Speaker: [Kurtis Heimerl]https://www.engr.washington.edu/facresearch/newfaculty/2015/kurtis-heimerl, [ENDAGA](https://www.endaga.com/), [FACEBOOK](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform), 
 
 #### Homework: 
 1. Start thinking about your final project - Research a community that needs communications technology or think about an innovative application of the GSM spectrum and how it can be used in rural development work.   Write a blog post about it. 
