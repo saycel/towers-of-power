@@ -63,6 +63,7 @@ Write a blog post about your experience.
 + Tower Installation Procedures
 + Discuss Built to Last 
 + Politics of Telecommunications
+
 ### Radio Waves, SDR, Wifi and Politics
 + Basic Radio Wave propagation, modulation
 + SDRs- what equipment is available? 
