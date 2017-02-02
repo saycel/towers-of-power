@@ -59,13 +59,16 @@ Write a blog post about your experience.
 
 
 ## Week 3 
++ SayCel Update
++ Tower Installation Procedures
++ Discuss Built to Last 
++ Politics of Telecommunications
 ### Radio Waves, SDR, Wifi and Politics
 + Basic Radio Wave propagation, modulation
 + SDRs- what equipment is available? 
 + Long Distance Wifi Backhaul
-+ Politics of Telecommunications
 + RTL-SDR - Demo RTL-SDR in class.  We will use the RTL-SDR to see phone calls we make with an our open source cellular system.  
-+ Twilio - Overview of how to use Twilio to make phone based projects. 
+
 
 #### Homework: 
 1. Start thinking about your final project - Research a community that needs communications technology or think about an innovative application of the GSM spectrum and how it can be used in rural development work.   Write a blog post about it. 
@@ -78,7 +81,9 @@ Write a blog post about your experience.
 
 
 ## Week 4 
-### Business, Budgets, Proposal, and Raising Financial Capital.
+### Phone Based Applications 
++ Twilio - Overview of how to use Twilio to make phone based projects.
+##Business, Budgets, Proposal, and Raising Financial Capital.
 + All the important details a tech person needs to know to run a business.  
 
 #### Guest Speaker: [Kashif Ali / Facebook Open Cellular](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform)
