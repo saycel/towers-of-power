@@ -69,6 +69,8 @@ Write a blog post about your experience.
 + SDRs- what equipment is available? 
 + Long Distance Wifi Backhaul
 + RTL-SDR - Demo RTL-SDR in class.  We will use the RTL-SDR to see phone calls we make with an our open source cellular system.  
++ [Dhruv: Satellite Sounds](http://satellite-sounds.dhruvmehrotra.info),
++ [Surya Mattu: SDR 101 + Analog TV](https://samatt.github.io/sdr-101)
 
 #### Guest Speaker: [Kurtis Heimerl](https://www.engr.washington.edu/facresearch/newfaculty/2015/kurtis-heimerl) - University of Washington, [ENDAGA](https://www.endaga.com/), [FACEBOOK](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform), 
 
