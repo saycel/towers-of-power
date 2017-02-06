@@ -60,9 +60,8 @@ Write a blog post about your experience.
 
 ## Week 3 
 + SayCel Update
++ Software Osmocom / Rhizomatica / Puppet GSM / Software Installation
 + Tower Installation Procedures
-+ Discuss Built to Last 
-+ Politics of Telecommunications
 
 ### Radio Waves, SDR, Wifi and Politics
 + Basic Radio Wave propagation, modulation
@@ -78,13 +77,14 @@ Write a blog post about your experience.
 1. Start thinking about your final project - Research a community that needs communications technology or think about an innovative application of the GSM spectrum and how it can be used in rural development work.   Write a blog post about it. 
 
 2. Do one of the following assignments below (you may work in groups): 
-
 + Look at Radio spectrum and record something interesting. If you don’t know what it is, try to figure it out, better yet try to demodulate it.  
-+ Make something interesting with twilio, and you can work in groups.  
-+ For the really adventurous: Install a cell network with BladeRF. 
+
+3. Come up with an initial idea of a community porblem that could be solved using a GSM solution. Can be a local problem, or a problem in a developing region.  It can be eviornmental or social.  Write a blog post, and we will go over this in the next class.  
+
 
 
 ## Week 4 
++ Discuss Built to Last 
 ### Phone Based Applications 
 + Twilio - Overview of how to use Twilio to make phone based projects.
 ##Business, Budgets, Proposal, and Raising Financial Capital.
@@ -98,6 +98,7 @@ Write a blog post about your experience.
 3. Complete a [Business Model Canvas](https://assets.strategyzer.com/assets/resources/the-business-model-canvas.pdf)
 4. Complete a Start-up Budget
 5. Complete a 24 Month Profit Loss Budget
+6. Make something interesting with twilio, and you can work in groups or Install a cell network with BladeRF. 
 
 
 ## Week 5
