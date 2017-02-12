@@ -11,7 +11,7 @@
 
 #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(5, 6);
+SoftwareSerial mySerial(6, 5);
 
 char inChar = 0;
 
