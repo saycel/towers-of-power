@@ -35,6 +35,4 @@ void loop() // run over and over
     mySerial.write(Serial.read());
     delay(5);
   }
-
-   //delay(50);
 }
