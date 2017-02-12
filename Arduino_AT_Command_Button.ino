@@ -11,7 +11,6 @@
 
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(5, 6);
-
 char inChar = 0;
 const int buttonPin = 2;     // the number of the pushbutton pi
 
