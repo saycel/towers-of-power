@@ -7,6 +7,7 @@ In the second part of the lesson we will connect a button to the Arduino and hav
 1. Connect the Arduino to GSM shield:
 
 ![alt tag](https://github.com/saycel/towers-of-power/blob/master/Arduino_GSM_Simple.png)
+Insert an active SIM card.
 
 2. Modify the SoftwareSerial.h file.
 SoftwareSerial.h file has a limited buffer size and this causes SMS messages to be truncated or shortened. In rder to get most if not all the message you have to modify the file.
@@ -21,7 +22,27 @@ This sketch uses software serial to send serial commands from your computer thro
 Serial communication is the process of sending data one bit at a time, and in this sketch we define the digital pins 6 and 5 for serial communication. Therefore all serial data is sent from these pins instead of digital pins 0 and 1.
 
 
-4. Open CoolTerm application and 
+4. CoolTerm Application. 
+Download and install CoolTerm.  (http://freeware.the-meiers.org/)
+CoolTerm is an application that lets you access the serial terminal in order to send and receive information directly.
+
+Go into ‘Options’ and select the serial port. 
+Re-scan to find the Arduino if necessary. 
+Once the port is selected, in the ‘Terminal’ option, change the “Terminal Mode” to “Line Mode” and check the box next to ‘Local Echo’. These setting make communication much easier. Hit ‘OK’. 
+
+5. Connect to GSM Device
+In CoolTerm hit the ‘Connect’ button. You should then see the message “Device Ready”. This means you have successfully started and connected to the GSM module. 
+To confirm this, type the command ‘AT’. 
+Hit ‘Enter’ and you should receive the response ‘OK’ from the module. 
+You just sent your first AT Command!
+
+####Sending an SMS with AT Commands
+There are a series of commands which must be executed in order to send an SMS using AT Commands.  First the module must be in text mode.  Then, you must send the AT+CMGS command with the destination number, 129, body of the message and a return character.  When using Cool Term this character must be a hex character.  
+
+- __AT+CMGF=1__ Set the module into text mode
+- __AT+CMGS="destination phone number", 129, \<body of message\> \<hex return character '1A'\>__ Note: When sending SMS messages through OpenBTS you do not need to use the 129 code.
+
+
 
 ####Notes for using AT Commands
 All of these commands work on the Quectel M10 GSM module which is used on the Arduino GSM Shield.  If using other GSM modules, consult the data sheet or manual for that specific module.  Each company adds and uses different commands which may cause confusion.  That being said, there is a list of standard AT Commands which work across all modules.  They too can be found online.  Below are all most common commands.
@@ -37,11 +58,7 @@ All of these commands work on the Quectel M10 GSM module which is used on the Ar
 - __AT+CIMI__ Get the IMSI number from the module
 - __AT+CSQ__ Check the signal strength
 
-####Notes on sending an SMS with AT Commands
-There are a series of commands which must be executed in order to send an SMS using AT Commands.  First the module must be in text mode.  Then, you must send the AT+CMGS command with the destination number, 129, body of the message and a return character.  When using Cool Term this character must be a hex character.  Not sure if this is always the case.
 
-- __AT+CMGF=1__ Set the module into text mode
-- __AT+CMGS="destination phone number", 129, \<body of message\> \<hex return character '1A'\>__ Note: When sending SMS messages through OpenBTS you do not need to use the 129 code.
 
 ####Notes on receiving SMS messages
 The module must be in text mode.  Then you can query the network for all of the messages or a message at a specific index.
