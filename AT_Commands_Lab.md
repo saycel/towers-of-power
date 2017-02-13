@@ -44,8 +44,10 @@ There are a series of commands which must be executed in order to send an SMS us
 
      2. AT+CMGS="destination phone number", 129       //press "Enter"   
      ///Note: When sending SMS messages through OpenBSC you do not need to use the 129 code.
+     
      3. > "write the body of your text"               //Press "Enter"
-     4.                                                   //Press "Ctrl-Z"
+     
+     4.                                              //Press "Ctrl-Z"
 
 
 ####Notes for using AT Commands
