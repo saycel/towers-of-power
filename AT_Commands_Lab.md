@@ -56,7 +56,7 @@ The module must be in text mode.  Then you can query the network for all of the 
 - __AT+CMGF=1__ Set the module into text mode
 - __AT+CMGL="ALL"__ List all text messages that are on the network
 - __AT+CMGR=\<index\>__ read an SMS at a specific index
-- AT+CNMI=2,2,0,0,0   //Sets module to automatically displays message as they arrive. 
+- __AT+CNMI=2,2,0,0,0__   //Sets module to automatically displays message as they arrive. 
 
 ## Notes for using AT Commands
 All of these commands work on the Quectel M10 GSM module which is used on the Arduino GSM Shield.  If using other GSM modules, consult the data sheet or manual for that specific module.  Each company adds and uses different commands which may cause confusion.  That being said, there is a list of standard AT Commands which work across all modules.  They too can be found online.  Below are all most common commands.
