@@ -18,7 +18,7 @@ SoftwareSerial.h file has a limited buffer size and this causes SMS messages to 
        3. Change      "#define _SS_MAX_RX_BUFF 64"    to      "#define _SS_MAX_RX_BUFF 256"
        4. Save file. 
        
-##3. Upload Arduino_AT_Command_Basic.ino sketch to your Arduino.  
+##3. Upload [Arduino_AT_Command_Basic.ino](https://github.com/saycel/towers-of-power/blob/master/Arduino_AT_Command_Basic.ino) sketch to your Arduino.  
 This sketch uses software serial to send serial commands from your computer through the Arduino onto the GSM board. 
 Serial communication is the process of sending data one bit at a time, and in this sketch we define the digital pins 6 and 5 for serial communication. Therefore all serial data is sent from these pins instead of digital pins 0 and 1.
 
@@ -84,6 +84,7 @@ All of these commands work on the Quectel M10 GSM module which is used on the Ar
 ![alt tag](https://github.com/saycel/towers-of-power/blob/master/Arduino_GSM_Button.png)
 
 1. Upload [Arduino_AT_Command_Button.ino](https://github.com/saycel/towers-of-power/blob/master/Arduino_AT_Command_Button.ino) and see your button send a message.  
+
 
 
 Portions of this documentation hwhere previously written by Benedetta Piantella and Kina Smith
