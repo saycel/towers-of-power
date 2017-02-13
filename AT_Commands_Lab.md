@@ -37,12 +37,14 @@ To confirm this, type the command ‘AT’.
 Hit ‘Enter’ and you should receive the response ‘OK’ from the module. 
 You just sent your first AT Command!
 
-####Sending an SMS with AT Commands
-There are a series of commands which must be executed in order to send an SMS using AT Commands.  First the module must be in text mode.  Then, you must send the AT+CMGS command with the destination number, 129, body of the message and a return character.  When using Cool Term this character must be a hex character.  
+##Sending an SMS with AT Commands
+There are a series of commands which must be executed in order to send an SMS using AT Commands.  First the module must be in text mode.  Then, you must send the AT+CMGS command with the destination number, 129, body of the message and a return character.  
 
-- __AT+CMGF=1__ Set the module into text mode
-- __AT+CMGS="destination phone number", 129, \<body of message\> \<hex return character '1A'\>__ Note: When sending SMS messages through OpenBTS you do not need to use the 129 code.
+- __AT+CMGF=1__ Set the module into text mode   //press "Enter"
 
+- __AT+CMGS="destination phone number", 129     //press "Enter" Note: When sending SMS messages through OpenBSC you do not need to use the 129 code.
+   >  write the body of your text               //Press "Enter"
+                                                //Press "Ctrl-Z"
 
 
 ####Notes for using AT Commands
