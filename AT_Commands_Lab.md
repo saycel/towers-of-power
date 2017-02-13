@@ -37,7 +37,7 @@ To confirm this, type the command ‘AT’.
 Hit ‘Enter’ and you should receive the response ‘OK’ from the module. 
 You just sent your first AT Command!
 
-##Sending an SMS with AT Commands
+## Sending an SMS with AT Commands
 There are a series of commands which must be executed in order to send an SMS using AT Commands.  First the module must be in text mode.  Then, you must send the AT+CMGS command with the destination number, 129, body of the message and a return character.  
 
      1. AT+CMGF=1        //press "Enter"  ///Set the module into text mode
@@ -50,7 +50,15 @@ There are a series of commands which must be executed in order to send an SMS us
      4.                                              //Press "Ctrl-Z"
 
 
-####Notes for using AT Commands
+
+## Receiving SMS messages
+The module must be in text mode.  Then you can query the network for all of the messages or a message at a specific index.
+- __AT+CMGF=1__ Set the module into text mode
+- __AT+CMGL="ALL"__ List all text messages that are on the network
+- __AT+CMGR=\<index\>__ read an SMS at a specific index
+- AT+CNMI=2,2,0,0,0   //Sets module to automatically displays message as they arrive. 
+
+## Notes for using AT Commands
 All of these commands work on the Quectel M10 GSM module which is used on the Arduino GSM Shield.  If using other GSM modules, consult the data sheet or manual for that specific module.  Each company adds and uses different commands which may cause confusion.  That being said, there is a list of standard AT Commands which work across all modules.  They too can be found online.  Below are all most common commands.
 
 - __AT__  Check to see if the module is active.  Should return 'OK'
@@ -65,14 +73,7 @@ All of these commands work on the Quectel M10 GSM module which is used on the Ar
 - __AT+CSQ__ Check the signal strength
 
 
-
-####Notes on receiving SMS messages
-The module must be in text mode.  Then you can query the network for all of the messages or a message at a specific index.
-- __AT+CMGF=1__ Set the module into text mode
-- __AT+CMGL="ALL"__ List all text messages that are on the network
-- __AT+CMGR=\<index\>__ read an SMS at a specific index
-
-####Notes on deleting SMS messages
+## Deleting SMS messages
 Deleting messages is very simple but very important to do as the buffer size of the GSM is not very big.  This means that it can only display two or three messages at a time when you use the command __AT+CMGL="ALL"__. By deleting old messages, you will be able to see the newest message.
 
 - __AT+CMGD=\<index\>__ delete an SMS message at a certain index
