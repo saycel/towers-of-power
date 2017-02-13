@@ -57,6 +57,13 @@ The module must be in text mode.  Then you can query the network for all of the 
 - __AT+CMGL="ALL"__ List all text messages that are on the network
 - __AT+CMGR=\<index\>__ read an SMS at a specific index
 - __AT+CNMI=2,2,0,0,0__   //Sets module to automatically displays message as they arrive. 
+- __AT+CNMI=2,1,0,0,0__   //Sets module to notify you a new message has arrived. 
+
+## Deleting SMS messages
+Deleting messages is very simple but very important to do as the buffer size of the GSM is not very big.  This means that it can only display two or three messages at a time when you use the command __AT+CMGL="ALL"__. By deleting old messages, you will be able to see the newest message.
+
+- __AT+CMGD=\<index\>__ delete an SMS message at a certain index
+
 
 ## Notes for using AT Commands
 All of these commands work on the Quectel M10 GSM module which is used on the Arduino GSM Shield.  If using other GSM modules, consult the data sheet or manual for that specific module.  Each company adds and uses different commands which may cause confusion.  That being said, there is a list of standard AT Commands which work across all modules.  They too can be found online.  Below are all most common commands.
@@ -73,10 +80,8 @@ All of these commands work on the Quectel M10 GSM module which is used on the Ar
 - __AT+CSQ__ Check the signal strength
 
 
-## Deleting SMS messages
-Deleting messages is very simple but very important to do as the buffer size of the GSM is not very big.  This means that it can only display two or three messages at a time when you use the command __AT+CMGL="ALL"__. By deleting old messages, you will be able to see the newest message.
+# Use a button to send SMS. 
 
-- __AT+CMGD=\<index\>__ delete an SMS message at a certain index
 
 
 Portions of this documentation hwhere previously written by Benedetta Piantella and Kina Smith
