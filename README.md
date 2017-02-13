@@ -84,32 +84,29 @@ Write a blog post about your experience.
 
 
 ## Week 4 
-
-
-
 + Discuss Built to Last 
++ Discuss Ideas for Final
++ Discuss RTL-SDR Homework
++ Review Radio Spectrum
+
+### Getting Hardware to speak GSM
++ Overview of different hardware options: GSM modems, GSM modules and shields, GSM breakout boards for micro-controllers and micro-controller platforms.
++ Communicating with GSM hardware and setting the hardware up: AT Commands.
++ Hands-on demo in pairs or small groups on how to use a serial communication application to talk to GSM breakout boards and more.
++ How to send an SMS and review of SMS protocol.
+
+#### Homework (you may work in groups):  
+1. Define your groups and final Project
+2. Write a brief synopsis of the project. 
+
+
+## Week 5
 ### Phone Based Applications 
 + Twilio - Overview of how to use Twilio to make phone based projects.
 ##Business, Budgets, Proposal, and Raising Financial Capital.
 + All the important details a tech person needs to know to run a business.  
 
 #### Guest Speaker: [Kashif Ali / Facebook Open Cellular](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform)
-
-#### Homework (you may work in groups):  
-1. Propose a location to do a GSM installation or a new product you want to build.
-2. Write a brief synopsis of the project. 
-3. Complete a [Business Model Canvas](https://assets.strategyzer.com/assets/resources/the-business-model-canvas.pdf)
-4. Complete a Start-up Budget
-5. Complete a 24 Month Profit Loss Budget
-6. Make something interesting with twilio, and you can work in groups or Install a cell network with BladeRF. 
-
-
-## Week 5
-### Getting Hardware to speak GSM
-+ Overview of different hardware options: GSM modems, GSM modules and shields, GSM breakout boards for micro-controllers and micro-controller platforms.
-+ Communicating with GSM hardware and setting the hardware up: AT Commands.
-+ Hands-on demo in pairs or small groups on how to use a serial communication application to talk to GSM breakout boards and more.
-+ How to send an SMS and review of SMS protocol.
 
 #### Homework (you may work in groups):  
 Work on your final!
