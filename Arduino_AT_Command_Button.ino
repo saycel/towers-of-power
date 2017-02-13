@@ -12,7 +12,7 @@
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(6, 5);
 char inChar = 0;
-const int buttonPin = 2;     // the number of the pushbutton pi
+const int buttonPin = 3;     // the number of the pushbutton pi
 
 //Button
 int buttonState = 0;         // variable for reading the pushbutton status
