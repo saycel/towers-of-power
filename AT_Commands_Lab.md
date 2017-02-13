@@ -4,12 +4,13 @@ AT COMMANDS are a great way to connect physical components or sensors to a GSM n
 In this lab we will use an Arduino, a GSM shield, along with the software CoolTerm.  
 In the second part of the lesson we will connect a button to the Arduino and have pressed button send an SMS.
 
-1. Connect the Arduino to GSM shield:
+##1. Connect the Arduino to GSM shield:
 
 ![alt tag](https://github.com/saycel/towers-of-power/blob/master/Arduino_GSM_Simple.png)
+
 Insert an active SIM card.
 
-2. Modify the SoftwareSerial.h file.
+##2. Modify the SoftwareSerial.h file.
 SoftwareSerial.h file has a limited buffer size and this causes SMS messages to be truncated or shortened. In rder to get most if not all the message you have to modify the file.
 
        1. Right click on Arduino Application and click on view contents. 
@@ -17,12 +18,12 @@ SoftwareSerial.h file has a limited buffer size and this causes SMS messages to 
        3. Change      "#define _SS_MAX_RX_BUFF 64"    to      "#define _SS_MAX_RX_BUFF 256"
        4. Save file. 
        
-3. Upload Arduino_AT_Command_Basic.ino sketch to your Arduino.  
+##3. Upload Arduino_AT_Command_Basic.ino sketch to your Arduino.  
 This sketch uses software serial to send serial commands from your computer through the Arduino onto the GSM board. 
 Serial communication is the process of sending data one bit at a time, and in this sketch we define the digital pins 6 and 5 for serial communication. Therefore all serial data is sent from these pins instead of digital pins 0 and 1.
 
 
-4. CoolTerm Application. 
+##4. CoolTerm Application. 
 Download and install CoolTerm.  (http://freeware.the-meiers.org/)
 CoolTerm is an application that lets you access the serial terminal in order to send and receive information directly.
 
@@ -30,7 +31,7 @@ Go into ‘Options’ and select the serial port.
 Re-scan to find the Arduino if necessary. 
 Once the port is selected, in the ‘Terminal’ option, change the “Terminal Mode” to “Line Mode” and check the box next to ‘Local Echo’. These setting make communication much easier. Hit ‘OK’. 
 
-5. Connect to GSM Device
+##5. Connect to GSM Device
 In CoolTerm hit the ‘Connect’ button. You should then see the message “Device Ready”. This means you have successfully started and connected to the GSM module. 
 To confirm this, type the command ‘AT’. 
 Hit ‘Enter’ and you should receive the response ‘OK’ from the module. 
