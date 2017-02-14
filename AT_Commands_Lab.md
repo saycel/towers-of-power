@@ -4,7 +4,7 @@ AT COMMANDS are a great way to connect physical components or sensors to a GSM n
 In this lab we will use an Arduino, a GSM shield, along with the software CoolTerm.  
 In the second part of the lesson we will connect a button to the Arduino and have pressed button send an SMS.
 
- [AT Commands](List of AT commands: http://arduino.cc/en/uploads/Main/Quectel_M10_AT_commands.pdf) Reference
+ [AT commands:](http://arduino.cc/en/uploads/Main/Quectel_M10_AT_commands.pdf) Reference
 
 ##1. Connect the Arduino to GSM shield:
 
