@@ -2,18 +2,19 @@
 
 In NYC we take our cellphone and wifi signals for granted.  Its always on and we are always connected. This not the case for 2 billion people who lack affordable communication and 700 Million people who have no coverage at all.  New technologies are democratizing communications infrastructure; Software defined radios, lowered hardware pricing and open source solutions have made it possible to install low cost infrastructure that can be controlled by communities instead of multinational corporations.  
 
-In this class you learn how to create your own communications networks. We will cover the software, and hardware used today in community based cellular networks in Mexico and Nicaragua. We will also delve into the business of international development through guest speakers working in the development or telecommunications fields.  
+In this class you learn how to create your own communications networks. We will cover the software, and hardware used today in community based cellular networks in Mexico and Nicaragua, as well the DIY infrastructure solutions data networks. We will also delve into the business of international development through guest speakers working in the development or telecommunications fields.  
 
 
 # Class Dates
   0. March 21 CANCELED
+  
   1. March 28
-  2. April 4
+  2. April 4 
   3. April 11
-  4. April ----- Class With Resilient Communities?
+  4. April 18 -- CANCELED -- RESCEDULING --
   5. April 25 - 
   6. May 2
-  7. May 7 6:00-9 PM (MONDAY)
+  7. RESCEDULE FINAL -- FRIDAY May 4(12:10-3PM) or MONDAY May 7(6-9 PM) or TUESDAY May 9(6-9 PM) 
   
   
 # Office Hours
