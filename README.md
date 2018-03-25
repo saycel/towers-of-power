@@ -10,10 +10,10 @@ In this class you learn how to create your own communications networks. We will 
   1. March 28
   2. April 4
   3. April 11
-  4. April 13
-  5. April 25
+  4. April ----- Class With Resilient Communities?
+  5. April 25 - 
   6. May 2
-  7. May 7 6:30-9 PM
+  7. May 7 6:00-9 PM (MONDAY)
   
   
 # Office Hours
