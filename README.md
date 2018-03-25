@@ -1,4 +1,4 @@
-# Towers of Power: Development and Infrastructure
+# Towers of Power 2018: Development and Infrastructure
 
 In NYC we take our cellphone and wifi signals for granted.  Its always on and we are always connected. This not the case for 2 billion people who lack affordable communication and 700 Million people who have no coverage at all.  New technologies are democratizing communications infrastructure; Software defined radios, lowered hardware pricing and open source solutions have made it possible to install low cost infrastructure that can be controlled by communities instead of multinational corporations.  
 
@@ -6,13 +6,14 @@ In this class you learn how to create your own communications networks. We will 
 
 
 # Class Dates
-  1. January 23
-  2. January 30
-  3. February 6
-  4. February 13
-  5. February 27
-  6. March 6
-  7. March 7 6:30-9 PM
+  0. March 21 CANCELED
+  1. March 28
+  2. April 4
+  3. April 11
+  4. April 13
+  5. April 25
+  6. May 2
+  7. May 7 6:30-9 PM
   
   
 # Office Hours
