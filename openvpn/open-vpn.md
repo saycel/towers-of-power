@@ -9,13 +9,30 @@ Why is this important? Accessing a device remotely is an incredibly valuable ski
 
 ## Assignment
 
-In general I don't really know what I am doing. In fact at Saycel, we don't really know what we are doing. We generally fake things, read documentation, make mistakes, look things up, fix mistakes, and learn as we go. This assignment is meant to expose you to technology you and concepts you may not familiar with. Networks are weird and the best way to learn them is to dive in.  Through this assignment you should get used to the terminal, the process of SSH, and reading documentation. 
+In general I don't really know what I am doing. 
 
-The goal:  Make any device a client of our Towers of Power VPN so you can access it remotely.  
-How: https://openvpn.net/index.php/open-source/documentation/howto.html#pki
+In fact at SayCel, we don't really know what we are doing. 
+We generally fake things, read documentation, make mistakes, look things up, fix mistakes, and learn as we go. This assignment is meant to expose you to technology you and concepts you may not familiar with. Networks are weird and the best way to learn them is to dive in.  Through this assignment you should get used to the terminal, the process of SSH, and reading documentation. 
 
-### WTF?
-We have set up a Towers of Power server and have generated keys for each one of you on it. We want you to turn your virtual box, your refrigerator, your IP camera, your whatever linux device, into a client of our server. This way, from anywhere in the world, you can ssh into our towers of power vpn, and thus ssh into your machine.  
+## The goal:  Make your Raspberry Pi a client of our Towers of Power VPN so you can access it remotely.  
+OpenVPN documentation: https://openvpn.net/index.php/open-source/documentation/howto.html#pki
+
+### INSTRUCTIONS
+We have set up a Towers of Power server and have generated keys for each one of you on it. 
+
+0. Install PNK Raspberry Pi Image on an MicroSD card and boot it up.  See:  ____
+   You will need to register your Pi on the ITP sandbox
+   You will need to connect your Pi with an ethernet cable.  It is also possible to share your internet from your computer (https://galem.wordpress.com/2014/10/14/configuring-the-raspberry-pi-to-share-a-macs-internet-connection/), but I can not garantee this will work properly.  
+   You will find it helpful if you use a monitor and keyboard with your pi when you first boot up.  
+   
+ 
+   
+   
+
+
+
+We want you to turn your Raspberry Pi into a client of our server.   
+This way, from anywhere in the world, you can ssh into our towers of power vpn, and thus ssh into your machine.  
 
 We don't want to give too much instruction, and we want you reading the [documentation](https://openvpn.net/index.php/open-source/documentation/howto.html). The general steps below assume virtual box.
 
