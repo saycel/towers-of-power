@@ -28,26 +28,33 @@ If you have a mac use Etcher (https://etcher.io/) to install PNK image on your S
 It is also possible to share your internet from your computer (https://galem.wordpress.com/2014/10/14/configuring-the-raspberry-pi-to-share-a-macs-internet-connection/), but I can not garantee this will work properly.  You will find it helpful if you use a monitor and keyboard with your Pi.  
    
 ### 1. On your laptop, login to the Towers of Power server.
-
+```
 ssh yourfirstname@162.243.17.139
-   I will give you your password in class. 
+```
+I will give you your password in class. 
  
 ### 2. Make sure you have files in the "keys" folder.
+```
 ca.crt  client.conf  yourfirstname.crt  yourfirstname.key  ta.key
+```
 You can DELETE client.conf, you will be using the client conf in this Github repo.  
 
 ### 3. Login into your Raspberry Pi
 login: pi  password:raspberry
 
 ### 4. Install OpenVPN
+```
 sudo apt-get install openvpn
+```
 
 ### 5.1. Move key files from Towers of Power Server to your Raspberry Pi's /etc/openvpn/client/keys folder.
 From Raspberry Pi navigate to /etc/openvpn/client/keys folder
 use cd .. to go back a folder
 Use ls to view files and folder
 You can also directly navigate to folder by
+```
 cd /etc/openvpn
+```
 client and keys folders may not be there and you have to make them using 
 mkdir
 
@@ -56,41 +63,48 @@ mkdir
 once inside your /etc/openvpn/client/keys folder do the following
 
 -# SuperUser SecureCopy location-of-current-file copy-file-to-new-location
+```
 sudo scp yourfirstname@162.243.17.139:/keys/name-of-file.crt /etc/openvpn/client/keys/name-of-file.crt
-
+```
 You will have to do this for each file, be sure to use the same file name.  You should have 4 files in your key folder.  
 
 ### 6. Change priledges to yourname.key and ta.key
+```
 sudo chmod 400 yourname.key
 sudo chmod 400 ta.key
-
+```
 ### 7. Navigate back to /etc/openvpn and create client.conf file 
-
+```
 sudo nano client.conf
-
+```
 ### 8. Copy text from https://github.com/saycel/towers-of-power/blob/2018/openvpn/client.conf into your client.conf.
 Change file names for your keys, and be sure they are located in the right folder. 
 
 ### 9. Start Openvpn
+```
 sudo openvpn client.conf
-
+```
 ### 10. Check Connection
 If it is successful you should open up a new terminal window, login to Raspberry Pi.
-type
 
 #Check network configuration
+```
 ifconfig
+```
 You should see TUN entry with a 10.8.0.x ip address.
 Save this address, its your VPN address for the pi. 
 
 #Ping the VPN server
+```
 ping 10.8.0.1 
+```
 
 ### 11. Connect to your Pi remotely
 
 Login into Tower-of-Power server
+```
 ssh into your pi
 ssh pi@10.8.0.x
-
+```
 # Now you can control your pi from anywhere in the world!
 
