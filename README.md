@@ -46,11 +46,10 @@ Book Appointments on my [Google Calander](https://calendar.google.com/calendar/s
 
 ## Week 2 
 ### Building a GSM Network from scratch. An overview of software to hardware.
-+ Basic SDR introduction - how to use an RTL-SDR. 
 + RTL-SDR - Demo RTL-SDR in class.  We will use the RTL-SDR to see phone calls we make with an our open source cellular system. 
 + Open Source Cellular History, Software and Hardware 
 + Tower Installations, maintenance and concerns. 
-+ Demo Cellular Network + AT Commands
++ Getting Hardware to speak GSM + AT Commands
 
 #### Homework:  
 TBD
