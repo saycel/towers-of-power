@@ -52,7 +52,8 @@ Book Appointments on my [Google Calander](https://calendar.google.com/calendar/s
 + Getting Hardware to speak GSM + AT Commands
 
 #### Homework:  
-TBD
+1. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 1 & 2. Write a blog post about the reading.  
+2. TBD
 
 ### Cool Stuff
 + [Dhruv Mehrotra: Satellite Sounds](http://satellite-sounds.dhruvmehrotra.info),
@@ -75,6 +76,7 @@ TBD
 + Look at Radio spectrum and record something interesting. If you don’t know what it is, try to figure it out, better yet try to demodulate it. 
 + Make a PNK. Install P5. Make a sketch to run on wifi network. 
 
+3. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 3 & 4. Write a blog post about the reading.  
 
 ## Week 4 
 More PNK + Wifi Networks
@@ -83,6 +85,7 @@ Fiber Optics
 #### Homework (you may work in groups):  
 1. Define your groups and final Project
 2. Write a brief synopsis of the project. 
+3. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 5 & 6. Write a blog post about the reading.  
 
 
 ## Week 5
