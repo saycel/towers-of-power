@@ -7,7 +7,6 @@ In this class you learn how to create your own communications networks. We will 
 
 # Class Dates
   0. March 21 CANCELED
-  
   1. March 28
   2. April 4 
   3. April 11
