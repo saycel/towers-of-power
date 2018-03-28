@@ -20,11 +20,12 @@ OpenVPN documentation: https://openvpn.net/index.php/open-source/documentation/h
 ### INSTRUCTIONS
 We have set up a Towers of Power server and have generated keys for each one of you on it. 
 
-0. Install PNK Raspberry Pi Image on an MicroSD card and boot it up.  See:  ____
+0.1. Install PNK Raspberry Pi Image on an MicroSD card and boot it up.  
+See: http://pnkgo.com/how-to/
+If you have a mac use Etcher (https://etcher.io/) to install PNK image on your SD card. 
    
-   You will need to register your Pi on the ITP sandbox. Connect your Pi with an ethernet cable.  
-   It is also possible to share your internet from your computer (https://galem.wordpress.com/2014/10/14/configuring-the-raspberry-pi-to-share-a-macs-internet-connection/), but I can not garantee this will work properly.  
-   You will find it helpful if you use a monitor and keyboard with your Pi.  
+0.2. You will need to register your Pi on the ITP sandbox. Connect your Pi with an ethernet cable.  
+It is also possible to share your internet from your computer (https://galem.wordpress.com/2014/10/14/configuring-the-raspberry-pi-to-share-a-macs-internet-connection/), but I can not garantee this will work properly.  You will find it helpful if you use a monitor and keyboard with your Pi.  
    
 1. On your laptop, login to the Towers of Power server.
 
@@ -41,7 +42,7 @@ login: pi  password:raspberry
 4. Install OpenVPN
 sudo apt-get install openvpn
 
-5. Move key files from Towers of Power Server to your Raspberry Pi's /etc/openvpn/client/keys folder.
+5.1. Move key files from Towers of Power Server to your Raspberry Pi's /etc/openvpn/client/keys folder.
 From Raspberry Pi navigate to /etc/openvpn/client/keys folder
 use cd .. to go back a folder
 Use ls to view files and folder
@@ -50,7 +51,7 @@ cd /etc/openvpn
 client and keys folders may not be there and you have to make them using 
 mkdir
 
-5a. SCP (Secure Copy) is a command that allows you to remotely move files from a server to a computer or vice versa.
+5.2. SCP (Secure Copy) is a command that allows you to remotely move files from a server to a computer or vice versa.
 
 once inside your /etc/openvpn/client/keys folder do the following
 
