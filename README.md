@@ -15,12 +15,16 @@ In this class you learn how to create your own communications networks. We will 
   6. May 2
   7. RESCHEDULE FINAL -- FRIDAY May 4(12:10-3PM) //or// MONDAY May 7(6-9 PM) //or// TUESDAY May 9(6-9 PM) 
   
-  
 # Office Hours
 I will be available for office hours by appointment on Tuesday and Wednesdays.
-
 Book Appointments on my [Google Calander](https://calendar.google.com/calendar/selfsched?sstoken=UUtrN2U2d1RsdDEwfGRlZmF1bHR8NjlhZTM2Y2NkM2U5MjU0OWM4ZDA5ODA0ZTg1YTdlMzI), or email (ereedsanchez@gmail.com ) if those times do not work.        
 
+# Bill of Materials
+1. [Raspberry Pi](https://www.amazon.com/CanaKit-Raspberry-Clear-Power-Supply/dp/B01C6EQNNK/ref=sr_1_7?s=electronics&ie=UTF8&qid=1522201697&sr=1-7&keywords=raspberry+pi+3)
+2. [RTL-SDR (Optional)](https://www.amazon.com/NooElec-RTL-SDR-RTL2832U-Software-Packages/dp/B008S7AVTC)
+3. [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402)
+4. Mikrotik Router (Optional)
+5. Ubiquiti AP (Optional)
 
 # Syllabus
 ## Week 1
@@ -29,9 +33,8 @@ Book Appointments on my [Google Calander](https://calendar.google.com/calendar/s
 + Syllabus and expectations
 + History of SayCel
 + Basic of GSM Infrastructure
-+ Basic Terminal Workshop https://docs.google.com/presentation/d/1tLC7XzMhGAKJri2ZYf2lvHvoR0w-OxHzxErKkz0C_jI/edit?usp=sharing
++ Basic Terminal Workshop https://docs.google.com/presentation/d/1vC4GRdBTGGHK3SpnnhADtaiHsZ4400bR32sulqZbREQ/edit#slide=id.g34324c9b55_0_174
 
-#### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
 
 #### Homework:  
 1. [Install Virtual Box/ Linux Ubuntu](https://github.com/saycel/towers-of-power/blob/master/virtual-box/VirtualBox.md)
@@ -52,12 +55,17 @@ Book Appointments on my [Google Calander](https://calendar.google.com/calendar/s
 + Virtual Private Networks (VPN) - Why it’s important and why we use it. 
 
 #### Homework:  
-1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/blob/master/openvpn/open-vpn.md)   
+1. [OpenVPN Assignment](https://github.com/saycel/towers-of-power/tree/2018/openvpn)   
 Write a blog post about your experience. 
 2. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 3 & 4. Write a blog post about the reading.  
 
 
-## Week 3 
+## Week 3
+
+#### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
+#### Guest Speaker: [Greta Byrum, Rhizomatica](https://www.rhizomatica.org/)
+#### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
+
 + SayCel Update
 + Software Osmocom / Rhizomatica / Puppet GSM / Software Installation
 + Tower Installation Procedures
