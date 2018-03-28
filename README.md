@@ -10,10 +10,10 @@ In this class you learn how to create your own communications networks. We will 
   1. March 28
   2. April 4 
   3. April 11
-  4. April 18 -- CANCELED -- RESCEDULING --
+  4. April 18 -- CANCELED -- RESCHEDULING --
   5. April 25 - 
   6. May 2
-  7. RESCEDULE FINAL -- FRIDAY May 4(12:10-3PM) or MONDAY May 7(6-9 PM) or TUESDAY May 9(6-9 PM) 
+  7. RESCHEDULE FINAL -- FRIDAY May 4(12:10-3PM) //or// MONDAY May 7(6-9 PM) //or// TUESDAY May 9(6-9 PM) 
   
   
 # Office Hours
