@@ -14,38 +14,82 @@ In general I don't really know what I am doing.
 In fact at SayCel, we don't really know what we are doing. 
 We generally fake things, read documentation, make mistakes, look things up, fix mistakes, and learn as we go. This assignment is meant to expose you to technology you and concepts you may not familiar with. Networks are weird and the best way to learn them is to dive in.  Through this assignment you should get used to the terminal, the process of SSH, and reading documentation. 
 
-## The goal:  Make your Raspberry Pi a client of our Towers of Power VPN so you can access it remotely.  
+## The goal:  Make your Raspberry Pi a client of Towers of Power VPN Server.  
 OpenVPN documentation: https://openvpn.net/index.php/open-source/documentation/howto.html#pki
 
 ### INSTRUCTIONS
 We have set up a Towers of Power server and have generated keys for each one of you on it. 
 
 0. Install PNK Raspberry Pi Image on an MicroSD card and boot it up.  See:  ____
-   You will need to register your Pi on the ITP sandbox
-   You will need to connect your Pi with an ethernet cable.  It is also possible to share your internet from your computer (https://galem.wordpress.com/2014/10/14/configuring-the-raspberry-pi-to-share-a-macs-internet-connection/), but I can not garantee this will work properly.  
-   You will find it helpful if you use a monitor and keyboard with your pi when you first boot up.  
    
+   You will need to register your Pi on the ITP sandbox. Connect your Pi with an ethernet cable.  
+   It is also possible to share your internet from your computer (https://galem.wordpress.com/2014/10/14/configuring-the-raspberry-pi-to-share-a-macs-internet-connection/), but I can not garantee this will work properly.  
+   You will find it helpful if you use a monitor and keyboard with your Pi.  
+   
+1. On your laptop, login to the Towers of Power server.
+
+ssh yourfirstname@162.243.17.139
+   I will give you your password in class. 
  
-   
-   
+2. Make sure you have files in the "keys" folder.
+ca.crt  client.conf  yourfirstname.crt  yourfirstname.key  ta.key
+You can DELETE client.conf, you will be using the client conf in this Github repo.  
 
+3. Login into your Raspberry Pi
+login: pi  password:raspberry
 
+4. Install OpenVPN
+sudo apt-get install openvpn
 
-We want you to turn your Raspberry Pi into a client of our server.   
-This way, from anywhere in the world, you can ssh into our towers of power vpn, and thus ssh into your machine.  
+5. Move key files from Towers of Power Server to your Raspberry Pi's /etc/openvpn/client/keys folder.
+From Raspberry Pi navigate to /etc/openvpn/client/keys folder
+use cd .. to go back a folder
+Use ls to view files and folder
+You can also directly navigate to folder by
+cd /etc/openvpn
+client and keys folders may not be there and you have to make them using 
+mkdir
 
-We don't want to give too much instruction, and we want you reading the [documentation](https://openvpn.net/index.php/open-source/documentation/howto.html). The general steps below assume virtual box.
+5a. SCP (Secure Copy) is a command that allows you to remotely move files from a server to a computer or vice versa.
 
-1. Install openvpn and openssh-server on a device or in virtual box ( sudo apt-get install ). If you have trouble ensure your host machine is sharing its internet connection with your ubuntu virtual box 
-2. Ensure ssh server is running ( ps aux | grep ssh ) -> what does this output mean.  Look up what these commands do. You should see two lines of output.  Why do you need an ssh server to be running?
-4. Create a client.conf file in /etc/openvpn ( you can copy and paste the text of [this one](https://github.com/saycel/towers-of-power/blob/master/openvpn/client.conf) into your client.conf - except you will need to edit the cert and key lines to point to the path of your cert and key) 
-5. SSH into our towers of power server and find your keys ( ssh itpstudent@104.236.122.246 ). You will need to read the documentation to find the files and determine which you need.   
-6. Copy the necessary files into the root directory your devices openvpn installation. You will need to read the documentation to determine the correct files.  NOTE: You will be unable to copy and paste these files, that wont work.  You will need to use a command called scp or secure copy.  HINT: scp itpstudent@ipaddress:/route-to-individual-file-on-our-server /route-to-location-on-your-device
-7. Start openVPN, you will know its working if see an interface called tun0 when you type ifconfig. 
+once inside your /etc/openvpn/client/keys folder do the following
 
-###RULES
+-# SuperUser SecureCopy location-of-current-file copy-file-to-new-location
+sudo scp yourfirstname@162.243.17.139:/keys/name-of-file.crt /etc/openvpn/client/keys/name-of-file.crt
 
-1. YOU WILL NOT NEED TO GENERATE ANY FILES ON OUR SERVER.  WE HAVE GENERATED THE NECESSARY FILES, YOU JUST NEED TO MOVE THEM TO YOUR MACHINE.  
-2. READ THE DOCUMENTATION.
-3.  THE STEPS ABOVE ARE PURPOSEFULLY VAGUE.  YOU NEED TO READ THE DOCUMENTATION.
+You will have to do this for each file, be sure to use the same file name.  You should have 4 files in your key folder.  
+
+6. Change priledges to yourname.key and ta.key
+sudo chmod 400 yourname.key
+sudo chmod 400 ta.key
+
+7. Navigate back to /etc/openvpn and create client.conf file 
+
+sudo nano client.conf
+
+8. Copy text from https://github.com/saycel/towers-of-power/blob/2018/openvpn/client.conf into your client.conf.
+Change file names for your keys, and be sure they are located in the right folder. 
+
+9. Start Openvpn
+sudo openvpn client.conf
+
+10.Check Connection
+If it is successful you should open up a new terminal window, login to Raspberry Pi.
+type
+
+#Check network configuration
+ifconfig
+You should see TUN entry with a 10.8.0.x ip address.
+Save this address, its your VPN address for the pi. 
+
+#Ping the VPN server
+ping 10.8.0.1 
+
+11. Connect to your Pi remotely
+
+Login into Tower-of-Power server
+ssh into your pi
+ssh pi@10.8.0.x
+
+# Now you can control your pi from anywhere in the world!
 
