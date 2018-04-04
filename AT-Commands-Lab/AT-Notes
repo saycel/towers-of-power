@@ -1,0 +1,68 @@
+AT COMMANDS /// TOWERS OF POWER
+
+GOOD REFERENCES:
+http://m2msupport.net/m2msupport/ussd-how-to-send-ussd-short-codes-with-at-command/
+https://www.arduino.cc/en/uploads/Main/Quectel_M10_AT_commands.pdf
+
+AT commands
+
+7187906673
+
+
+
+
+Set to GSM mode:
+AT+CREG=0
+
+
+See networks available
+AT+COPS=?
+
+
+Register to Network (Open Source GSM)
+AT+COPS=1,2,”00101"
+
+
+
+Check Registration
+AT+COPS?
+
+RETURNS:   +COPS: 1,2,”00101"
+
+
+
+FIND NUMBER
+
+ENABLE USSD CODE
+AT+CUSD=1
+
+SET CHARACTERS TO GSM
+AT+CSCS="GSM"
+
+INPUT USSD CODE
+AT+CUSD=1,"*#100#",15
+
+
+
+SMS
+http://m2msupport.net/m2msupport/sms-at-commands/
+CURRENT SMS FORMAT
+AT+CMGF?
++CMGF: 0     // SET TO PDU FORMAT
+
+SET SMS FORMAT to TEXT
+AT+CMGF=1
+
+SEND SMS
+AT+CMGS="<PHONE NUMBER>”
+> TYPE MESSAGE
+CONTROL, OR COMMAND Z
+
+
+READ SMS
+AT+CMGF=1 Set the module into text mode
+AT+CMGL="ALL" List all text messages that are on the network
+AT+CMGR=<index> read an SMS at a specific index
+
+
+
