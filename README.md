@@ -55,44 +55,39 @@ Book Appointments on my [Google Calander](https://calendar.google.com/calendar/s
 1. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 1 & 2. Write a blog post about the reading.  
 2. Prep for guests:
 
-Rhizomatica
-Peter Bloom Bio
-https://www.rhizomatica.org/team/peter-bloom/
+##### Rhizomatica
++ [Peter Bloom Bio]
+(https://www.rhizomatica.org/team/peter-bloom/)
 
-Community Mobile Telephony Manual
-https://cloud.rhizomatica.org/index.php/s/H5x0Bg5XErMBMZZ#pdfviewer
++ [Community Mobile Telephony Manual](https://cloud.rhizomatica.org/index.php/s/H5x0Bg5XErMBMZZ#pdfviewer)
 
-BBC report: Rhizomatica
-https://www.youtube.com/watch?v=oGkQrL6tw7Y
++ [BBC report: Rhizomatica](https://www.youtube.com/watch?v=oGkQrL6tw7Y)
 
-Resilient Communities
+##### Resilient Communities
 The History of Resilient Communities Project
-https://nextcity.org/features/view/internet-connection-mesh-networks-resilience
-http://meetingoftheminds.org/building-towards-resiliency-healthy-digital-ecosystems-21344
++ https://nextcity.org/features/view/internet-connection-mesh-networks-resilience
++ http://meetingoftheminds.org/building-towards-resiliency-healthy-digital-ecosystems-21344
 
-Raul Enrique Bio
-https://www.newamerica.org/our-people/raul-enriquez/
++ [Raul Enrique Bio](https://www.newamerica.org/our-people/raul-enriquez/)
 
-Digital Equity Lab
-Greta Byrum Bio
-https://www.newamerica.org/our-people/greta-byrum/
+##### Digital Equity Lab
++ [Greta Byrum Bio](https://www.newamerica.org/our-people/greta-byrum/)
 
-Digital Equity Lab @ New School
-https://www.newschool.edu/digital-equity-lab/
++ [Digital Equity Lab @ New School](https://www.newschool.edu/digital-equity-lab/)
 
-Please Review (Optional but very helpful)
-Community Technology Field Guide
-http://communitytechnology.github.io/
+##### Optional - Please Review
++ [Community Technology Field Guide](http://communitytechnology.github.io/)
 
-WIRELESS NETWORKING IN THE DEVELOPING WORLD
++ [WIRELESS NETWORKING IN THE DEVELOPING WORLD](http://wndw.net/book.html#readBook)
 A very technical guide about wireless networks.  
-http://wndw.net/book.html#readBook
+
 
 ### Cool Stuff
 Old School Videos about Radio Waves
 + [Antenna Fundametals 1](https://www.youtube.com/watch?v=7bDyA5t1ldU)
 + [Antenna Fundametals 2](https://www.youtube.com/watch?v=md7GjQQ2YA0)
 
+Other projects
 + [Dhruv Mehrotra: Satellite Sounds](http://satellite-sounds.dhruvmehrotra.info),
 + [Surya Mattu: SDR 101 + Analog TV](https://samatt.github.io/sdr-101)
 
