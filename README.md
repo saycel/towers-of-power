@@ -93,9 +93,8 @@ Other projects
 
 
 ## Week 3
-### Radio Waves, Wifi and Politics
-+ Basic Radio Wave propagation, modulation
-+ Long Distance Wifi and MESH Networks.
+### Community Networks Speakers and Portable Network Kits
+
 
 #### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
 #### Guest Speaker: [Greta Byrum, Digital Equity Laboratory @ The New School](https://www.newschool.edu/digital-equity-lab/)
@@ -105,19 +104,30 @@ Other projects
 1. Start thinking about your final project - Come up with an initial idea of a community porblem that could be solved using communications solution. Can be a local problem, or a problem in a developing region.  It can be eviornmental or social.  Write a blog post, and we will go over this in the next class. 
 
 2. Do one of the following assignments below (you may work in groups): 
-+ Look at Radio spectrum and record something interesting. If you don’t know what it is, try to figure it out, better yet try to demodulate it. 
++ Use GSM Board, AT Commands, or Text messages to prototype a application.
 + Make a PNK. Install P5. Make a sketch to run on wifi network. 
+Both of these assignements are meant to start thinking about your final, and how an application can be used in community network context. 
 
 3. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 3 & 4. Write a blog post about the reading.  
 
+
 ## Week 4 
-More PNK + Wifi Networks
-Fiber Optics
++ Final Project Expectations
+  + Previous Finals
++ Review Homework - 
+  + Prototype
+  + Final Ideas. 
++ Long Distance Wifi and MESH Networks.
 
 #### Homework (you may work in groups):  
 1. Define your groups and final Project
 2. Write a brief synopsis of the project. 
 3. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 5 & 6. Write a blog post about the reading.  
+
+
+
+
+
 
 
 ## Week 5
