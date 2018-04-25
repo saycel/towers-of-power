@@ -46,7 +46,6 @@ Book Appointments on my [Google Calander](https://calendar.google.com/calendar/s
 
 ## Week 2 
 ### Building a GSM Network from scratch. An overview of software to hardware.
-+ RTL-SDR - Demo RTL-SDR in class.  We will use the RTL-SDR to see phone calls we make with an our open source cellular system. 
 + Open Source Cellular History, Software and Hardware 
 + Tower Installations, maintenance and concerns. 
 + Getting Hardware to speak GSM + AT Commands
@@ -95,7 +94,6 @@ Other projects
 ## Week 3
 ### Community Networks Speakers and Portable Network Kits
 
-
 #### Guest Speaker: [Peter Bloom, Rhizomatica](https://www.rhizomatica.org/)
 #### Guest Speaker: [Greta Byrum, Digital Equity Laboratory @ The New School](https://www.newschool.edu/digital-equity-lab/)
 #### Guest Speaker: [Raul Enrique, Resilient Communities](hhttps://www.newamerica.org/resilient-communities/)
@@ -114,21 +112,24 @@ Both of these assignements are meant to start thinking about your final, and how
 ## Week 4 
 + Final Project Expectations
   + Previous Finals
-+ Review Homework - 
-  + Prototype
-  + Final Ideas. 
-+ Long Distance Wifi and MESH Networks.
++ Review Homework 
+  + Prototype and Finals Ideas 
+
+#### Guest Dhruv Mehrotra | Engineer - Artists - Digital Investigator | [Othernet](https://the-daily-green.com/2017/05/03/rethinking-the-internet-the-othernet-with-dhruv-mehrotra/)
++ RTL-SDR - Brief review of RTL-SDR and what can be done with it!
+  + [Satellite Sounds](http://satellite-sounds.dhruvmehrotra.info/)
+  + Airplane Tracking
+  + FCC Licenses - FCC-licenses-near.me
+
+#### Nicarguan Political Upheaval, Infrastructure, Censorship, and Network Responsibility
++ This past week Nicaragua experienced a series of violent protest and media censorship. My company SayCel now has to deal with the reality of building infrastructure and a business in this turbulent enviornment. 
+  + A review of Nicaraguan politics, and the cause of the protests.
+  + Bluefields Othernet and how to balance freedom of speech, security, and long term business goals.  
 
 #### Homework (you may work in groups):  
 1. Define your groups and final Project
 2. Write a brief synopsis of the project. 
 3. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 5 & 6. Write a blog post about the reading.  
-
-
-
-
-
-
 
 ## Week 5
 ### Business
