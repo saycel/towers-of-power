@@ -10,10 +10,11 @@ In this class you learn how to create your own communications networks. We will 
   1. March 28
   2. April 4 
   3. April 11
-  4. April 18 RESCHEDULE
-  5. April 25
-  6. May 2
-  7. FINAL May 14 - MONDAY (4:30-7:30 PM)
+  4. April 18 CANCELED
+  4A. April 25
+  5. May 2
+  6. May 7 - MONDAY 5:00 - 7:30PM  - 60 5th Ave RM 446 (Conference Room)
+  7. FINAL May 14 - MONDAY 4:00-7:00 PM - 60 5th Ave RM 446 (Conference Room)
   
 # Office Hours
 I will be available for office hours by appointment on Tuesday and Wednesdays.
