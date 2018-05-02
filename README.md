@@ -131,6 +131,7 @@ Both of these assignements are meant to start thinking about your final, and how
 1. Define your groups and final Project
 2. Write a brief synopsis of the project. 
 3. Read [Built to Last by Jim Collins](https://www.amazon.com/Built-Last-Successful-Visionary-Essentials/dp/0060516402) Chapters 5 & 6. Write a blog post about the reading.  
+4. Complete a Business Model Canvas for your Final Project: https://strategyzer.com/canvas/business-model-canvas
 
 ## Week 5
 ### Business
