@@ -122,10 +122,6 @@ Both of these assignements are meant to start thinking about your final, and how
   + Airplane Tracking
   + FCC Licenses - FCC-licenses-near.me
 
-#### Nicarguan Political Upheaval, Infrastructure, Censorship, and Network Responsibility
-+ This past week Nicaragua experienced a series of violent protest and media censorship. My company SayCel now has to deal with the reality of building infrastructure and a business in this turbulent enviornment. 
-  + A review of Nicaraguan politics, and the cause of the protests.
-  + Bluefields Othernet and how to balance freedom of speech, security, and long term business goals.  
 
 #### Homework (you may work in groups):  
 1. Define your groups and final Project
